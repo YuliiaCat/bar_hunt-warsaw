@@ -1,0 +1,19 @@
+export { default as BeerIcon } from './BeerIcon';
+export { default as CloseIcon } from './CloseIcon';
+export { default as GameIcon } from './GameIcon';
+export { default as HeartIcon } from './HeartIcon';
+export { default as LocationIcon } from './LocationIcon';
+export { default as MapIcon } from './MapIcon';
+export { default as MusicIcon } from './MusicIcon';
+export { default as OliveIcon } from './OliveIcon';
+export { default as PinIcon } from './PinIcon';
+export { default as QuestionIcon } from './QuestionIcon';
+export { default as ShareIcon } from './ShareIcon';
+export { default as SmileIcon } from './SmileIcon';
+export { default as SportIcon } from './SportIcon';
+export { default as StarIcon } from './StarIcon';
+export { default as WineBottleIcon } from './WineBottleIcon';
+export { default as LaughIcon } from './LaughIcon';
+export { default as BigSmileIcon } from './BigSmileIcon';
+export { default as CupIcon } from './CupIcon';
+
