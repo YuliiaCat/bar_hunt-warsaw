@@ -45,8 +45,6 @@ const GameStartScreen = () => {
     });
   };
 
-  console.log('olivePosition', olivePosition);
-
   const shuffleCups = () => {
     setShuffling(true);
     const sequence = [];

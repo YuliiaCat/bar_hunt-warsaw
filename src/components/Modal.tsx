@@ -54,11 +54,11 @@ const Modal: React.FC<IModal> = ({ isSuccess, onClose }) => {
               <LaughIcon />
               <View>
                 <SharedText
-                  text={joke?.question ?? 'Why don’t bartenders ever run out of ice?'}
+                  text={joke ? joke.question : 'Why don’t bartenders ever run out of ice?'}
                   style={styles.text}
                 />
                 <SharedText
-                  text={joke?.answer ?? 'Because they know how to keep their cool!'}
+                  text={joke ? joke.answer : 'Because they know how to keep their cool!'}
                   style={styles.text}
                 />
               </View>
