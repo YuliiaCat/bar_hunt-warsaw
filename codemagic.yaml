@@ -8,12 +8,12 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.EvianoPath.Harmony
+        bundle_identifier: com.barhunt.warsaw
       vars:
-        BUNDLE_ID: com.EvianoPath.Harmony
-        XCODE_WORKSPACE: Evian.xcworkspace
-        XCODE_SCHEME: Evian
-        APP_STORE_APPLE_ID: 
+        BUNDLE_ID: com.barhunt.warsaw
+        XCODE_WORKSPACE: bar_hunt.xcworkspace
+        XCODE_SCHEME: bar_hunt
+        APP_STORE_APPLE_ID: 6743403806
     scripts:
       - name: Install npm dependencies
         script: |
